@@ -1,25 +1,25 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=c44e52,4c72b0&height=250&section=header&text=Retail%20Sales%20Performance%20Analysis&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Business%20Intelligence%20%7C%20Strategic%20Profit%20Optimization&descAlignY=60&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2C3E50,4CA1AF&height=250&section=header&text=Retail%20Sales%20Performance%20Analysis&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Business%20Intelligence%20%7C%20Strategic%20Profit%20Optimization&descAlignY=60&descAlign=50" width="100%"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=C44E52&center=true&vCenter=true&width=600&lines=Identifying+Profit+Leakages;Engineered+COGS+and+Margin+Metrics;Optimizing+Regional+Supply+Chains;Python+%7C+Pandas+%7C+Seaborn"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2C3E50&center=true&vCenter=true&width=600&lines=Identifying+Profit+Leakages;Engineered+COGS+and+Margin+Metrics;Optimizing+Regional+Supply+Chains;Python+%7C+Pandas+%7C+Seaborn"/>
 </div>
 
 <br/>
 
 <div align="center">
   <a href="https://github.com/Abu-Sameer-66">
-    <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Maintained%3F-yes-2C3E50.svg?style=for-the-badge"/>
   </a>
   <a href="https://github.com/Abu-Sameer-66/Retail-Sales-Performance-Analysis">
-    <img src="https://img.shields.io/badge/Python-3.9+-blue.svg?style=for-the-badge&logo=python&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Python-3.9+-4CA1AF.svg?style=for-the-badge&logo=python&logoColor=white"/>
   </a>
   <a href="https://github.com/Abu-Sameer-66/Retail-Sales-Performance-Analysis">
-    <img src="https://img.shields.io/badge/Status-Production_Ready-orange.svg?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Status-Production_Ready-success.svg?style=for-the-badge"/>
   </a>
   <a href="https://github.com/Abu-Sameer-66/Retail-Sales-Performance-Analysis">
-    <img src="https://img.shields.io/badge/Domain-Business_Intelligence-8A2BE2.svg?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Domain-Business_Intelligence-blueviolet.svg?style=for-the-badge"/>
   </a>
 </div>
 
@@ -48,5 +48,5 @@ graph LR
     D --> F[Visual Analysis]
     E --> F
     F --> G[Strategic Report]
-    style C fill:#f9f,stroke:#333,stroke-width:2px
-    style G fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#4CA1AF,stroke:#2C3E50,stroke-width:2px,color:#fff
+    style G fill:#2C3E50,stroke:#4CA1AF,stroke-width:2px,color:#fff
