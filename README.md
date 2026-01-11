@@ -2,6 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=005C97,363795&height=250&section=header&text=Retail%20Sales%20Performance%20Analysis&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Business%20Intelligence%20%7C%20Strategic%20Profit%20Optimization&descAlignY=60&descAlign=50" width="100%"/>
 </div>
 
+
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=363795&center=true&vCenter=true&width=600&lines=Identifying+Profit+Leakages;Engineered+COGS+and+Margin+Metrics;Optimizing+Regional+Supply+Chains;Python+%7C+Pandas+%7C+Seaborn"/>
 </div>
