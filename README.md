@@ -1,39 +1,43 @@
-# 📈 Retail Sales Performance Analysis
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=c44e52,4c72b0&height=250&section=header&text=Retail%20Sales%20Performance%20Analysis&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Business%20Intelligence%20%7C%20Strategic%20Profit%20Optimization&descAlignY=60&descAlign=50" width="100%"/>
+</div>
 
-> **A Strategic Business Intelligence (BI) solution identifying key drivers of profit and operational inefficiencies across US retail regions.**
-> *Leverages Python, Pandas, and Seaborn to derive actionable insights from transaction data.*
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=C44E52&center=true&vCenter=true&width=600&lines=Identifying+Profit+Leakages;Engineered+COGS+and+Margin+Metrics;Optimizing+Regional+Supply+Chains;Python+%7C+Pandas+%7C+Seaborn"/>
+</div>
 
-[![Status](https://img.shields.io/badge/Status-Production_Ready-success)]()
-[![License](https://img.shields.io/badge/License-MIT-blue)]()
+<br/>
 
----
-
-### 💼 Business Problem
-A US Superstore is generating high revenue but facing **margin pressure**. This project engineers new financial metrics (COGS, Unit Price) to identify:
-1.  **Loss-Making Products:** Which items are selling at a negative margin?
-2.  **Discount Traps:** How discounting strategies are eroding profit.
-3.  **Regional Inefficiencies:** Areas with high sales but low ROI.
-
----
-
-### ⚙️ Feature Engineering
-Unlike standard analysis, this project derives advanced business metrics:
-- **`Cost` (COGS):** Calculated as `Sales - Profit` to track operational overhead.
-- **`Profit Margin %`:** Evaluates efficiency per transaction.
-- **`Unit Price`:** Approximated to segment Luxury vs. Economy products.
-- **`Order Year/Month`:** Extracted for time-series trend analysis.
+<div align="center">
+  <a href="https://github.com/Abu-Sameer-66">
+    <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge"/>
+  </a>
+  <a href="https://github.com/Abu-Sameer-66/Retail-Sales-Performance-Analysis">
+    <img src="https://img.shields.io/badge/Python-3.9+-blue.svg?style=for-the-badge&logo=python&logoColor=white"/>
+  </a>
+  <a href="https://github.com/Abu-Sameer-66/Retail-Sales-Performance-Analysis">
+    <img src="https://img.shields.io/badge/Status-Production_Ready-orange.svg?style=for-the-badge"/>
+  </a>
+</div>
 
 ---
 
-### 📊 Key Insights & Visualizations
-The analysis pipeline generates the following strategic outputs:
-- **The Discount Trap:** Heatmap revealing a strong negative correlation (`-0.22`) between Discount and Profit.
-- **Category Audit:** Bar charts identifying **"Tables"** and **"Bookcases"** as primary loss-makers.
-- **Growth Trajectory:** Time-series line plots tracking annual sales performance.
+### 💼 The Business Problem
+A US Superstore is generating high revenue but facing **critical margin pressure**. Traditional analysis looks at *Sales*, but this project engineers financial metrics to find the *True Profit*.
+
+| 🚨 Problem | 💡 Solution Engineered |
+| :--- | :--- |
+| **Negative Margins** | Calculated **COGS (Cost of Goods Sold)** to identify products costing more than they earn. |
+| **Discount Traps** | Correlated `Discount %` vs `Profit` to find the exact "tipping point" where deals become losses. |
+| **Regional Bloat** | Segmented performance by Region to find areas with high volume but low ROI. |
 
 ---
 
-### 🚀 How to Run
-1. **Clone the repo**
-   ```bash
-   git clone [https://github.com/Abu-Sameer-66/Retail-Sales-Performance-Analysis.git](https://github.com/Abu-Sameer-66/Retail-Sales-Performance-Analysis.git)
+### ⚙️ Advanced Feature Engineering
+*Beyond standard EDA, this engine derives new business metrics:*
+
+```python
+# Key Financial Metrics Added to Dataset
+df['Cost'] = df['Sales'] - df['Profit']                # Operational Overhead
+df['Profit Margin %'] = (df['Profit'] / df['Sales'])   # Efficiency Ratio
+df['Unit Price'] = df['Sales'] / df['Quantity']        # Pricing Tier Segmentation
