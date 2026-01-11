@@ -18,6 +18,9 @@
   <a href="https://github.com/Abu-Sameer-66/Retail-Sales-Performance-Analysis">
     <img src="https://img.shields.io/badge/Status-Production_Ready-orange.svg?style=for-the-badge"/>
   </a>
+  <a href="https://github.com/Abu-Sameer-66/Retail-Sales-Performance-Analysis">
+    <img src="https://img.shields.io/badge/Domain-Business_Intelligence-8A2BE2.svg?style=for-the-badge"/>
+  </a>
 </div>
 
 ---
@@ -25,19 +28,25 @@
 ### 💼 The Business Problem
 A US Superstore is generating high revenue but facing **critical margin pressure**. Traditional analysis looks at *Sales*, but this project engineers financial metrics to find the *True Profit*.
 
-| 🚨 Problem | 💡 Solution Engineered |
-| :--- | :--- |
-| **Negative Margins** | Calculated **COGS (Cost of Goods Sold)** to identify products costing more than they earn. |
-| **Discount Traps** | Correlated `Discount %` vs `Profit` to find the exact "tipping point" where deals become losses. |
-| **Regional Bloat** | Segmented performance by Region to find areas with high volume but low ROI. |
+| 🚨 Problem | 💡 Solution Engineered | 🎯 Goal |
+| :--- | :--- | :--- |
+| **Negative Margins** | Calculated **COGS (Cost of Goods Sold)** to identify products costing more than they earn. | Stop bleeding cash on bad products. |
+| **Discount Traps** | Correlated `Discount %` vs `Profit` to find the exact "tipping point" where deals become losses. | Optimize pricing strategy. |
+| **Regional Bloat** | Segmented performance by Region to find areas with high volume but low ROI. | Fix supply chain inefficiencies. |
 
 ---
 
-### ⚙️ Advanced Feature Engineering
-*Beyond standard EDA, this engine derives new business metrics:*
+### 🧩 System Architecture
+*The data flows through a structured BI pipeline:*
 
-```python
-# Key Financial Metrics Added to Dataset
-df['Cost'] = df['Sales'] - df['Profit']                # Operational Overhead
-df['Profit Margin %'] = (df['Profit'] / df['Sales'])   # Efficiency Ratio
-df['Unit Price'] = df['Sales'] / df['Quantity']        # Pricing Tier Segmentation
+```mermaid
+graph LR
+    A[Raw Transaction Data] -->|Pandas| B(Data Cleaning & Audit)
+    B --> C{Feature Engineering}
+    C -->|Calculate| D[COGS & Margin %]
+    C -->|Extract| E[Temporal Trends]
+    D --> F[Visual Analysis]
+    E --> F
+    F --> G[Strategic Report]
+    style C fill:#f9f,stroke:#333,stroke-width:2px
+    style G fill:#bbf,stroke:#333,stroke-width:2px
