@@ -40,6 +40,7 @@ A US Superstore is generating high revenue but facing **critical margin pressure
 ---
 
 ### 🧩 System Architecture
+*Stucture/flow*
 *The data flows through a structured BI pipeline:*
 
 ```mermaid
