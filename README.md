@@ -18,7 +18,7 @@
     <img src="https://img.shields.io/badge/Status-Production_Ready-success.svg?style=for-the-badge"/>
   </a>
   <a href="https://github.com/Abu-Sameer-66/Retail-Sales-Performance-Analysis">
-    <img src="https://img.shields.io/badge/Domain-Business_Intelligence-blueviolet.svg?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Domain-Business_Intelligence-blueviolet+-9CA62B.svg?style=for-the-badge"/>
   </a>
 </div>
 
